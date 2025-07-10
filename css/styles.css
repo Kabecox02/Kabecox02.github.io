@@ -89,6 +89,17 @@
   box-sizing: border-box;
 }
 
+.text-custom{
+  font-size: xx-large;
+  color: whitesmoke;
+  margin-left: 40px;
+}
+.p{
+  margin-top: 75px;
+}
+.q{
+  margin-left: 750px;
+}
 .contact-container{
     height: 50vh;
     display: flex;
@@ -160,6 +171,9 @@
     background: linear-gradient(270deg, #555555,#fff);
     cursor: pointer;
     margin-left: 400px;
+}
+.contact-container button:hover{
+  border: 2px solid  #5416ff;
 }
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -1372,7 +1386,7 @@ progress {
   }
   .col-lg-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    width: 80%;
   }
   .col-lg-9 {
     flex: 0 0 auto;
@@ -8318,9 +8332,9 @@ textarea.form-control-lg {
 }
 
 .text-white-50 {
-  --bs-text-opacity: 1;
+  --bs-text-opacity: 80;
   color: rgba(255, 255, 255, 0.5) !important;
-  font-size: small;
+  font-size: x-large;
 }
 
 .text-reset {
@@ -11142,7 +11156,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11154,7 +11168,7 @@ body {
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  
   -webkit-background-clip: text;
           background-clip: text;
 }
