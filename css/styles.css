@@ -89,6 +89,78 @@
   box-sizing: border-box;
 }
 
+.contact-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 350px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #FBF8F1;
+    font-size: 40px;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.contact-container hr{
+    border: none;
+    width: 400px;
+    height: 5px;
+    background-color: #FBF8F1 ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-content: center;
+    margin-left: 250px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #FBF8F1 ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    place-items: center;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500px;
+    color: #666;
+    border-radius: 50px;
+    margin-left: 250px;
+}
+.contact-container textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid  #5416ff;
+}
+.contact-container button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #555555,#fff);
+    cursor: pointer;
+    margin-left: 400px;
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -8248,6 +8320,7 @@ textarea.form-control-lg {
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
+  font-size: small;
 }
 
 .text-reset {
