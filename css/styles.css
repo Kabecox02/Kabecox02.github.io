@@ -105,7 +105,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 350px;
 }
 .contact-left{
     display: flex;
@@ -117,7 +116,7 @@
 .contact-left-title h2{
     font-weight: 600;
     color: #FBF8F1;
-    font-size: 40px;
+    font-size: 38px;
     margin-bottom: 5px;
     align-content: center;
 }
@@ -129,11 +128,11 @@
     border-radius: 10px;
     margin-bottom: 20px;
     align-content: center;
-    margin-left: 250px;
+   
 }
 .contact-left-title hr{
     border: none;
-    width: 120px;
+    width: 100px;
     height: 5px;
     background-color: #FBF8F1 ;
     border-radius: 10px;
@@ -149,7 +148,6 @@
     font-weight: 500px;
     color: #666;
     border-radius: 50px;
-    margin-left: 250px;
 }
 .contact-container textarea{
     height: 140px;
@@ -170,10 +168,18 @@
     border-radius: 50px;
     background: linear-gradient(270deg, #555555,#fff);
     cursor: pointer;
-    margin-left: 400px;
 }
 .contact-container button:hover{
   background: linear-gradient(270deg, #fff, #5416ff);
+}
+@media (max-width 800px){
+  .contact-inputs{
+    width: 80vw;
+  }
+  .contact-container{
+    width: 80vw;
+  }
+
 }
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -11085,7 +11091,7 @@ body {
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#fff, 80%);
+  color: fade(#fff, 100%);
   outline: none;
   background-color: transparent;
 }
@@ -11098,7 +11104,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: var(--bs-gray-700);
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
