@@ -88,6 +88,9 @@
 *::after {
   box-sizing: border-box;
 }
+.footer-copyright{
+  font-size: x-small;
+}
 
 .text-custom{
   font-size: xx-large;
@@ -155,7 +158,7 @@
     border-radius: 20px;
 }
 .contact-inputs:focus{
-    border: 2px solid  #5416ff;
+    border: 2px solid  #311432;
 }
 .contact-container button{
     display: flex;
@@ -170,7 +173,7 @@
     cursor: pointer;
 }
 .contact-container button:hover{
-  background: linear-gradient(270deg, #fff, #5416ff);
+  background: linear-gradient(270deg, #fff, #311432);
 }
 @media (max-width 800px){
   .contact-inputs{
@@ -2941,19 +2944,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #64a19d;
-  --bs-btn-border-color: #64a19d;
+  --bs-btn-bg: #696880;
+  --bs-btn-border-color: #696880;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #558985;
-  --bs-btn-hover-border-color: #50817e;
+  --bs-btn-hover-bg: #4d4c5c;
+  --bs-btn-hover-border-color: #4d4c5c;
   --bs-btn-focus-shadow-rgb: 123, 175, 172;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #50817e;
-  --bs-btn-active-border-color: #4b7976;
+  --bs-btn-active-bg: #696880;
+  --bs-btn-active-border-color: #696880;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #64a19d;
-  --bs-btn-disabled-border-color: #64a19d;
+  --bs-btn-disabled-bg: #696880;
+  --bs-btn-disabled-border-color: #696880;
 }
 
 .btn-secondary {
@@ -8340,7 +8343,7 @@ textarea.form-control-lg {
 .text-white-50 {
   --bs-text-opacity: 80;
   color: rgba(255, 255, 255, 0.5) !important;
-  font-size: x-large;
+  font-size: large;
 }
 
 .text-reset {
@@ -9881,6 +9884,7 @@ textarea.form-control-lg {
   .px-lg-0 {
     padding-right: 0 !important;
     padding-left: 0 !important;
+    font-size: 1.2em;
   }
   .px-lg-1 {
     padding-right: 0.25rem !important;
