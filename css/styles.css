@@ -89,9 +89,16 @@
   box-sizing: border-box;
 }
 .footer-copyright{
-  font-size: x-small;
+  font-size: small;
 }
 
+.email-bar{
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  background-color: #000;
+}
 .text-custom{
   font-size: xx-large;
   color: whitesmoke;
@@ -4370,7 +4377,7 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  color: var(--bs-card-color);
+  color: #696880 ;
 }
 
 .card-title {
@@ -8277,7 +8284,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #696880  !important;
 }
 
 .text-secondary {
@@ -8337,7 +8344,7 @@ textarea.form-control-lg {
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: black !important;
 }
 
 .text-white-50 {
@@ -11225,7 +11232,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #696880;
   }
 }
 .projects-section .project-text {
@@ -11262,7 +11269,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #696880 ;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11272,7 +11279,7 @@ body {
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #64a19d;
+  border-color: #696880 ;
   border-width: 0.25rem;
   width: 3rem;
 }
