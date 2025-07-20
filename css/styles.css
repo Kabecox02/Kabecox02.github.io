@@ -92,11 +92,12 @@
   font-size: small;
 }
 .text-under{
-  color: rgb(185, 185, 185);
+  color: #3e3d53;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: small !important;
+  font-size: x-large !important;
   display: block !important;
   margin: auto !important;
+  white-space: nowrap !important;
 }
 .small-font{
   font-size: x-small;
@@ -132,6 +133,7 @@
   display: flex !important;
   margin: auto !important;
   align-content: center !important;
+  color: white;
 }
 .p{
   margin-top: 75px;
