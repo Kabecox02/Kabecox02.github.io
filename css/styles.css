@@ -91,7 +91,20 @@
 .footer-copyright{
   font-size: small;
 }
+.text-under{
+  color: rgb(185, 185, 185);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small !important;
+  display: block !important;
+  margin: auto !important;
+}
+.small-font{
+  font-size: x-small;
+}
+.profile-pic{
+  margin-left: 300px;
 
+}
 .email-bar{
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
@@ -100,9 +113,25 @@
   background-color: #000;
 }
 .text-custom{
-  font-size: xx-large;
+  font-size: x-large !important;
   color: whitesmoke;
-  margin-left: 40px;
+  text-align: justify;
+  display: block;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  white-space:nowrap;
+  align-content: center;
+  
+}
+.title-section{
+  display: flex;
+  margin: auto;
+  align-content: center;
+}
+.text-custom-title{
+  display: flex !important;
+  margin: auto !important;
+  align-content: center !important;
 }
 .p{
   margin-top: 75px;
@@ -3902,7 +3931,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
+  --bs-navbar-color: #696880 !important;
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -4312,13 +4341,13 @@ textarea.form-control-lg {
 }
 
 .navbar-dark {
-  --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-color:#696880;
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
-  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-disabled-color: #696880;
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
-  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+  --bs-navbar-toggler-border-color: #696880 !import;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
@@ -11115,7 +11144,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: var(--bs-gray-700);
+    background-color: #696880;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11219,6 +11248,7 @@ body {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
+
 .about-section p {
   margin-bottom: 5rem;
 }
@@ -11257,7 +11287,7 @@ body {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Georgia";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
