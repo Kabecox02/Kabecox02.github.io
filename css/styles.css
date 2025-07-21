@@ -91,13 +91,42 @@
 .footer-copyright{
   font-size: small;
 }
-.text-under{
-  color: #3e3d53;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.small.text-black-50 a {
+    color: #311432; /* Choose your desired color */
+    text-decoration: underline; /* Optional: keeps underline */
+}
+.blend-bg {
+    background: linear-gradient(
+        to bottom,
+        #323233 0%,         /* dark gray */
+        #838da3 100%        /* light gray-blue */
+    );
+}
+.new-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    max-width: 1000px; /* Optional: limits width for better appearance */
+}
+.textbox{
+
+  width: 1000px !important;
+  text-align: center !important;
+}
+.text-under {
+
+  border-radius: 5px;
   font-size: x-large !important;
-  display: block !important;
-  margin: auto !important;
-  white-space: nowrap !important;
+  font-weight: bolder;
+
+  color: rgb(0, 0, 0);
+  text-align: center !important;
+  display: flex;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-content: center;
+  width: 1000px !important;
 }
 .small-font{
   font-size: x-small;
@@ -105,6 +134,10 @@
 .profile-pic{
   margin-left: 300px;
 
+}
+.new-container-wide {
+    width: 100%;
+    max-width: 10000;
 }
 .email-bar{
   margin-top: 1.5rem !important;
@@ -116,8 +149,8 @@
 .text-custom{
   font-size: x-large !important;
   color: whitesmoke;
-  text-align: justify;
-  display: block;
+  text-align: center !important;
+  display: flex;
   margin: auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
   white-space:nowrap;
@@ -3439,7 +3472,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-hover-color: #1e2125;
   --bs-dropdown-link-hover-bg: #e9ecef;
   --bs-dropdown-link-active-color: #fff;
-  --bs-dropdown-link-active-bg: #64a19d;
+  --bs-dropdown-link-active-bg: #4e344b;
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-item-padding-x: 1rem;
   --bs-dropdown-item-padding-y: 0.25rem;
@@ -11200,6 +11233,10 @@ body {
 
 .masthead {
   position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
   width: 100%;
   height: auto;
   min-height: 35rem;
@@ -11216,13 +11253,20 @@ body {
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  
+  margin-bottom: 0.5rem;
   -webkit-background-clip: text;
           background-clip: text;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
   font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.masthead .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
