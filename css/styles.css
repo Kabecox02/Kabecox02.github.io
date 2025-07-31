@@ -99,7 +99,7 @@
     background: linear-gradient(
         to bottom,
         #323233 0%,         /* dark gray */
-        #838da3 100%        /* light gray-blue */
+        #a2aab9 100%        /* light gray-blue */
     );
 }
 .new-container {
